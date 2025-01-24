@@ -15,5 +15,11 @@ Next Steps: Evaliate suggestions the dataset with
 -Dimensionality Reduction (PCA + k-NN)
 -Autoencoders
 
+Expanding Further:
+- Have a real stream environment set up using API and kafka. Immitate the environment when a user selects a random song we suggesnt next few songs.
+
+  
+
+
 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or new features.
