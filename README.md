@@ -5,6 +5,13 @@ Dataset source - https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-20
 Description 
 A content-based music recommendation system that recommends songs based on features such as tempo, energy, danceability, and more.
 
+Algotrith Used : k-NN cosine similarity
+
 Audio features: tempo, energy, danceability, valence, acousticness, etc.
 Metadata: Song name, artist, and other attributes.
+
+Next Steps: Evaliate suggestions the dataset with 
+-Clustering (e.g., K-Means)
+-Dimensionality Reduction (PCA + k-NN)
+-Autoencoders
 
