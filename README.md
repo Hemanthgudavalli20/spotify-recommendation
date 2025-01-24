@@ -16,8 +16,18 @@ Next Steps: Evaliate suggestions the dataset with
 -Autoencoders
 
 Expanding Further:
-- Have a real stream environment set up using API and kafka. Immitate the environment when a user selects a random song we suggesnt next few songs.
+To expand your project with a real streaming environment and Kafka, here’s how you can approach it:
 
+-  Streaming Setup Overview
+The real-time recommendation system will work as follows:
+
+Input: A user selects a song.
+Process:
+The song ID or features are sent to a Kafka topic.
+A consumer listens to this topic and retrieves the song's features.
+A recommendation engine (running on a server or cloud) generates a list of similar songs.
+The results are sent to another Kafka topic or an API.
+Output: The recommended songs are displayed to the user.
   
 
 
