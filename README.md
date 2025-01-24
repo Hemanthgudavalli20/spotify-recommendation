@@ -15,3 +15,5 @@ Next Steps: Evaliate suggestions the dataset with
 -Dimensionality Reduction (PCA + k-NN)
 -Autoencoders
 
+Contributing
+Contributions are welcome! Please fork this repository and submit a pull request for any improvements or new features.
